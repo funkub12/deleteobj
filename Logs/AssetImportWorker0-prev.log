@@ -15,7 +15,7 @@ C:/Users/User/Desktop/unity/deleteobj
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51516
+53529
 Successfully changed project path to: C:/Users/User/Desktop/unity/deleteobj
 C:/Users/User/Desktop/unity/deleteobj
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/User/Desktop/unity/deleteobj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2792]  Target information:
+Player connection [12184]  Target information:
 
-Player connection [2792]  * "[IP] 192.168.1.58 [Port] 0 [Flags] 2 [Guid] 4038683832 [EditorId] 4038683832 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0C96OCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12184]  * "[IP] 192.168.1.58 [Port] 0 [Flags] 2 [Guid] 2607175511 [EditorId] 2607175511 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0C96OCP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2792] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12184] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12184] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 1874.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -72,46 +72,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.261821 seconds.
-- Loaded All Assemblies, in  6.071 seconds
+Registered in 0.009670 seconds.
+- Loaded All Assemblies, in  0.308 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.240 seconds
-Domain Reload Profiling: 6309ms
-	BeginReloadAssembly (4392ms)
+- Finished resetting the current domain, in  0.224 seconds
+Domain Reload Profiling: 531ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (378ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (345ms)
-	LoadAllAssembliesAndSetupDomain (946ms)
-		LoadAssemblies (4391ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (943ms)
-			TypeCache.Refresh (941ms)
-				TypeCache.ScanAssembly (710ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (240ms)
+	FinalizeReload (225ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (202ms)
+		SetupLoadedEditorAssemblies (187ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,7 +120,7 @@ Domain Reload Profiling: 6309ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.788 seconds
+- Loaded All Assemblies, in  0.521 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -128,47 +128,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.549 seconds
-Domain Reload Profiling: 5334ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 981ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (4569ms)
-		LoadAssemblies (4111ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (540ms)
-			TypeCache.Refresh (522ms)
-				TypeCache.ScanAssembly (463ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (549ms)
+	FinalizeReload (463ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (422ms)
+		SetupLoadedEditorAssemblies (354ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (316ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3558.
-Memory consumption went from 119.0 MB to 119.0 MB.
-Total: 3.002800 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.548800 ms  DeleteObjects: 0.104000 ms)
+Memory consumption went from 119.1 MB to 119.0 MB.
+Total: 2.829500 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.145700 ms MarkObjects: 2.365800 ms  DeleteObjects: 0.107400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,391 +185,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 292.642486 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (2).controller
-  artifactKey: Guid(7f0418dacebfda24baf278d0e7cd0a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (2).controller using Guid(7f0418dacebfda24baf278d0e7cd0a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ff005198b48784123781653605f2f79e') in 0.017785 seconds
+  Time since last request: 13931.872129 seconds.
+  path: Assets/Material/FF5100.mat
+  artifactKey: Guid(f047898cbec673e40afc441e90b762fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/FF5100.mat using Guid(f047898cbec673e40afc441e90b762fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd099d11bff5e372b7e7c2d4cc03b4a7') in 0.091599 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 21.085255 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (3).controller
-  artifactKey: Guid(70cdb03f5c4538e4b88a5741d5b8dbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (3).controller using Guid(70cdb03f5c4538e4b88a5741d5b8dbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3a53a4bcb091de37f8300d400419728a') in 0.011975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 21.303069 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (4).controller
-  artifactKey: Guid(dde6855a084e2394a9cd6cd30f7d5228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (4).controller using Guid(dde6855a084e2394a9cd6cd30f7d5228) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6eff7ff6ae08e865a4f7a847c87e3332') in 0.015033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 17.366661 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (5).controller
-  artifactKey: Guid(d2838b9ac20a08545b5c3815a8efab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (5).controller using Guid(d2838b9ac20a08545b5c3815a8efab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '59f0388b95cc3a0491625fc5c5950711') in 0.012218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 15.607892 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (6).controller
-  artifactKey: Guid(cc3b189241f8d5945a46015e0bf20f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (6).controller using Guid(cc3b189241f8d5945a46015e0bf20f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'da06aaeaf254fa76034d929c892bc098') in 0.011710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.513670 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (7).controller
-  artifactKey: Guid(9bf3287d962e28f4d9dfdd2e377f57c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (7).controller using Guid(9bf3287d962e28f4d9dfdd2e377f57c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fc12d78ea88ec1aa094951cc52a919e3') in 0.012181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.297900 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (8).controller
-  artifactKey: Guid(0630080c9c2174d4893f212ffcd182ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (8).controller using Guid(0630080c9c2174d4893f212ffcd182ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2d80f110f15b9c4739af38912c34bc7a') in 0.012642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 336.641109 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (9).controller
-  artifactKey: Guid(780c2225819d4734896b1720cf324e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (9).controller using Guid(780c2225819d4734896b1720cf324e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5fc18f8ddc308ca06dd8a3a2b754f313') in 0.014294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 12.374496 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (10).controller
-  artifactKey: Guid(a4f4d0740f1c41f4db852cae260ff4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (10).controller using Guid(a4f4d0740f1c41f4db852cae260ff4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '786f831d13cc6c6bddc98a0cb18ec32f') in 0.013901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 93.882617 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (11).controller
-  artifactKey: Guid(b208b433d75935c4e873270d3d092607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (11).controller using Guid(b208b433d75935c4e873270d3d092607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0866dad90fd795ad5f752a9bc25f2825') in 0.007297 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 32.095731 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (12).controller
-  artifactKey: Guid(6f29a15796ff8ff46b043909e5c9c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (12).controller using Guid(6f29a15796ff8ff46b043909e5c9c1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e3f631fb362fe21c8d7f37d64713e65a') in 0.013020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 18.051769 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (13).controller
-  artifactKey: Guid(18a0dad29790a8245a1d5fa547e805f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (13).controller using Guid(18a0dad29790a8245a1d5fa547e805f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '68cd36592d515f36e0090d0aa9fa663d') in 0.013144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.130198 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (14).controller
-  artifactKey: Guid(6df039d8d010fbb4b92de90193428b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (14).controller using Guid(6df039d8d010fbb4b92de90193428b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6bd9a3b0248d6471b23d80dc511e1c8a') in 0.012750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 15.759145 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (15).controller
-  artifactKey: Guid(f257e173ba4deb048904d1997dcd02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (15).controller using Guid(f257e173ba4deb048904d1997dcd02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b54fcbc35cb576b6f3dddc6e880d2b24') in 0.012744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 25.419770 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (16).controller
-  artifactKey: Guid(172dc70f34bb03547b7bd843d819f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (16).controller using Guid(172dc70f34bb03547b7bd843d819f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '32902928a60cbe6f20d480e91b100527') in 0.016341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.989357 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (17).controller
-  artifactKey: Guid(06b4cbf911fc2a5418a9e49ba3d9a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (17).controller using Guid(06b4cbf911fc2a5418a9e49ba3d9a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ccfa689764c0c2f2517e1fac456853e4') in 0.020931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 23.364549 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (18).controller
-  artifactKey: Guid(3cd727cbf4f94214d842e35b154223b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (18).controller using Guid(3cd727cbf4f94214d842e35b154223b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '601b5a34a219ca383bea11c143448fe4') in 0.013234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 35.008410 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (19).controller
-  artifactKey: Guid(1f09bfa241cc0954888f81d76cd1cfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (19).controller using Guid(1f09bfa241cc0954888f81d76cd1cfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ca2408a138ac7554ba49a33580c42d5d') in 0.013496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 9.530754 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (20).controller
-  artifactKey: Guid(6c26bce257229ba4392ddb0554b11cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (20).controller using Guid(6c26bce257229ba4392ddb0554b11cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4598ed852a6d02a5ec9f96eda1bf682e') in 0.012004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 15.300990 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (21).controller
-  artifactKey: Guid(8da239f00d482234fb24d24faee0ff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (21).controller using Guid(8da239f00d482234fb24d24faee0ff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3147c3a1e9289da02ff82cb9c1db146c') in 0.013801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.709953 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (22).controller
-  artifactKey: Guid(bdfb53d72f5afe64abfde7c8dbc32f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (22).controller using Guid(bdfb53d72f5afe64abfde7c8dbc32f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e8c0eaeb2750448f54fc4d982a8b2368') in 0.013331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 20.161922 seconds.
-  path: Assets/Animation/modelanimation/M18_Set_Origin (23).controller
-  artifactKey: Guid(d58803d06f403ee41aa177f2e1f06b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/M18_Set_Origin (23).controller using Guid(d58803d06f403ee41aa177f2e1f06b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e9d23ec6058f00a5cf710f99ae43de22') in 0.013361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 71.785758 seconds.
-  path: Assets/Animation/modelanimation/Assem3 - มอเตอร์_123-3.controller
-  artifactKey: Guid(e4d4819038a665946a53b602db706423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/Assem3 - มอเตอร์_123-3.controller using Guid(e4d4819038a665946a53b602db706423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'da72863ee96c8e2a9cbbc3ab54dcdaa9') in 0.012631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 23.368048 seconds.
-  path: Assets/Animation/modelanimation/Assem3 - มอเตอร์_123-4.controller
-  artifactKey: Guid(3f80d71d4519ed74d90c79d7f7badfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/Assem3 - มอเตอร์_123-4.controller using Guid(3f80d71d4519ed74d90c79d7f7badfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f4c297aa6e0f035f2819a452ad180736') in 0.012163 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 659.581080 seconds.
-  path: Assets/Animation/modelanimation/Assem3 - Counter_Balance-1.controller
-  artifactKey: Guid(95008df84accda141a59c6ae05315899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/Assem3 - Counter_Balance-1.controller using Guid(95008df84accda141a59c6ae05315899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '51c9d6189d474f44b118b6035126a0f3') in 0.000965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.516 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.338 seconds
-Domain Reload Profiling: 1851ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (261ms)
-		LoadAssemblies (335ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1338ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (285ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3562.
-Memory consumption went from 117.7 MB to 117.7 MB.
-Total: 3.115100 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.080900 ms MarkObjects: 2.756600 ms  DeleteObjects: 0.061100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5291.877879 seconds.
-  path: Assets/Animation/modelanimation/cba.anim
-  artifactKey: Guid(a0b55584ab9664b469c7c8893848b3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/cba.anim using Guid(a0b55584ab9664b469c7c8893848b3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '949278c85bc2b502cee9df3ce191cb9e') in 0.012417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.762234 seconds.
-  path: Assets/Animation/modelanimation/cb.anim
-  artifactKey: Guid(3f5acfc7d4c0e0b4194967531917aade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/cb.anim using Guid(3f5acfc7d4c0e0b4194967531917aade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '91b09c76b31e9339293abd347dce06cb') in 0.007139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.623223 seconds.
+  Time since last request: 317.306066 seconds.
   path: Assets/Animation/modelanimation/axis3.anim
   artifactKey: Guid(95227490d58c1eb4486f19fdfe73dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animation/modelanimation/axis3.anim using Guid(95227490d58c1eb4486f19fdfe73dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '09e2fedcdd0d0f143b3c2d7026b99eed') in 0.007002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 136.932035 seconds.
-  path: Assets/Animation/modelanimation/axis2.anim
-  artifactKey: Guid(777d24178ebfd81448f2de99afbda9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/axis2.anim using Guid(777d24178ebfd81448f2de99afbda9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '09912c66ac1aeb791fc67e72261bdc57') in 0.007684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.784274 seconds.
-  path: Assets/Animation/modelanimation/asix456.anim
-  artifactKey: Guid(755ebb54a1f46c541ae6135cac0c35e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/asix456.anim using Guid(755ebb54a1f46c541ae6135cac0c35e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0fdf4d4374561b1e30093572a65f1683') in 0.007092 seconds
+ -> (artifact id: 'd43c8e43cfd6634caafc253ee0df77fb') in 0.001163 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.364 seconds
+- Loaded All Assemblies, in  0.371 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.819 seconds
-Domain Reload Profiling: 1180ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 1185ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (237ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (234ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (10ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (819ms)
+	FinalizeReload (817ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (381ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (278ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.4 KB). Loaded Objects now: 3565.
-Memory consumption went from 117.7 MB to 117.7 MB.
-Total: 2.424000 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.079700 ms MarkObjects: 2.084900 ms  DeleteObjects: 0.034200 ms)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3602.
+Memory consumption went from 122.4 MB to 122.4 MB.
+Total: 2.804300 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.146800 ms MarkObjects: 2.314200 ms  DeleteObjects: 0.041000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -586,911 +269,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1424.130739 seconds.
-  path: Assets/Animation/modelanimation/m101.anim
-  artifactKey: Guid(7dbde2889ce5a5e4f84e08665aae0cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/m101.anim using Guid(7dbde2889ce5a5e4f84e08665aae0cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '59ce2767bc9325a1ec6bdc8369fdb90f') in 0.008672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.805187 seconds.
-  path: Assets/Animation/modelanimation/m102.anim
-  artifactKey: Guid(9016fcda13f665a4c9da7f45aecccbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/m102.anim using Guid(9016fcda13f665a4c9da7f45aecccbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bb463dc091898194aaaddf09d9da0cb1') in 0.000918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.978850 seconds.
-  path: Assets/Animation/modelanimation/m10.anim
-  artifactKey: Guid(e0b86866d40c4af41bd2ea5b18e6d750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/m10.anim using Guid(e0b86866d40c4af41bd2ea5b18e6d750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6005c5dbbfd684365f37ea7b8b390b31') in 0.000927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 6.334210 seconds.
-  path: Assets/Animation/modelanimation/m103.anim
-  artifactKey: Guid(b49bb5d0dcbf2c544873138fddfe70c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/m103.anim using Guid(b49bb5d0dcbf2c544873138fddfe70c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1eb44c99ddd5b279c24798bb450b31ea') in 0.000870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.893342 seconds.
-  path: Assets/Animation/modelanimation/cbb.anim
-  artifactKey: Guid(78226f6c69ce5b34c8e8b25314d0020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/cbb.anim using Guid(78226f6c69ce5b34c8e8b25314d0020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '23502ed21959d6c286ede24dd267661a') in 0.000996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.807304 seconds.
-  path: Assets/Animation/modelanimation/cover.anim
-  artifactKey: Guid(0c03bb42a36336f44b5b2be45e60ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/cover.anim using Guid(0c03bb42a36336f44b5b2be45e60ab88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e3fa3b96f92b60d4926dae496f93407e') in 0.000870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 8.212526 seconds.
-  path: Assets/Animation/modelanimation/cb.anim
-  artifactKey: Guid(3f5acfc7d4c0e0b4194967531917aade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/cb.anim using Guid(3f5acfc7d4c0e0b4194967531917aade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ec7de201e8b3511c4021f81b1983c9c8') in 0.000884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.831351 seconds.
-  path: Assets/Animation/modelanimation/cba.anim
-  artifactKey: Guid(a0b55584ab9664b469c7c8893848b3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/cba.anim using Guid(a0b55584ab9664b469c7c8893848b3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2ee3392dc0e6733dc6cb9954bcf9b680') in 0.000987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 14.621398 seconds.
-  path: Assets/Animation/modelanimation/motor1.anim
-  artifactKey: Guid(13196df5590f4a74dba3aa887f7a3a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/motor1.anim using Guid(13196df5590f4a74dba3aa887f7a3a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '98d627e39bbe3b5d7ac1c8c356547a81') in 0.001450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.980859 seconds.
-  path: Assets/Animation/modelanimation/motor2.anim
-  artifactKey: Guid(74288b0f29476b94fad72272ce0fd37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/motor2.anim using Guid(74288b0f29476b94fad72272ce0fd37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4ca617e3f4713fb05a1bfbb147d1dbbd') in 0.001521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.936906 seconds.
-  path: Assets/Animation/modelanimation/motor3.anim
-  artifactKey: Guid(01d06c741658cbb46bd98f828ebdb828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/motor3.anim using Guid(01d06c741658cbb46bd98f828ebdb828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '59a4d5551d33d90e0036a7b495e9ebf4') in 0.007392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.933721 seconds.
-  path: Assets/Animation/modelanimation/motor4.anim
-  artifactKey: Guid(ce8b084ecc346a0478acf8d116fb6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/motor4.anim using Guid(ce8b084ecc346a0478acf8d116fb6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '86f334db4fb90ad761d9b086125435c8') in 0.007206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.760152 seconds.
-  path: Assets/Animation/modelanimation/motor5.anim
-  artifactKey: Guid(aef59580207798148a1211d9ac577141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/motor5.anim using Guid(aef59580207798148a1211d9ac577141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '35457f459bd82ed5db318d86771dc23c') in 0.007481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.759618 seconds.
-  path: Assets/Animation/modelanimation/motor6.anim
-  artifactKey: Guid(326a04fb2cb790a4c91c39e0e739a739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/motor6.anim using Guid(326a04fb2cb790a4c91c39e0e739a739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3f8f7593f5494a3f7ce579a86ed1fdcf') in 0.008878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.869547 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m1.anim
-  artifactKey: Guid(b44930535e5adac4ca27e772d82a1d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m1.anim using Guid(b44930535e5adac4ca27e772d82a1d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ec97143aa703a0f77cc8398042f21827') in 0.006993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.538216 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m2.anim
-  artifactKey: Guid(bebeb3baed8feee48815c6dc023d8ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m2.anim using Guid(bebeb3baed8feee48815c6dc023d8ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bced269245c15b1a2588c852b226d8cf') in 0.007795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.157824 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m3.anim
-  artifactKey: Guid(2d804bd6e08e52644baca06a753df0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m3.anim using Guid(2d804bd6e08e52644baca06a753df0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0cafca428a63b99f7f64adbd5fdd7110') in 0.007273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.759891 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m4.anim
-  artifactKey: Guid(638833dcb1bdf29409787605fc90c23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m4.anim using Guid(638833dcb1bdf29409787605fc90c23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd138bee949e6c75e5d291eb36efb34fa') in 0.007298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.937189 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m5.anim
-  artifactKey: Guid(78f12a76221ec31489a4066738e6e872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m5.anim using Guid(78f12a76221ec31489a4066738e6e872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '79a8d7e95eee22a84744e9c9b27953cc') in 0.006848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.735144 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m6.anim
-  artifactKey: Guid(c67d66c3758663b4f98ac01eb53318a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m6.anim using Guid(c67d66c3758663b4f98ac01eb53318a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8d80c8aa85740a9649d4b97055ab2bd2') in 0.007934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.767660 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m7.anim
-  artifactKey: Guid(a68c0516af61bd143981b9e6fd5302ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m7.anim using Guid(a68c0516af61bd143981b9e6fd5302ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '72a3758914fd8873d652df15f5bb58a0') in 0.007510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.753470 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m8.anim
-  artifactKey: Guid(f8d11076e04ae194a87ea65d4a84db06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m8.anim using Guid(f8d11076e04ae194a87ea65d4a84db06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9b2913008f26f088de97aa519fec1bbd') in 0.007545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.711351 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m9.anim
-  artifactKey: Guid(8648d620768ff8b47bc8e331f3710570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m9.anim using Guid(8648d620768ff8b47bc8e331f3710570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3a5f21eae888bebcfc4f83c6e658964d') in 0.007058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.055102 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m10.anim
-  artifactKey: Guid(39198333831e8d44ea0811f0bd0bf723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m10.anim using Guid(39198333831e8d44ea0811f0bd0bf723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ba72a54b55e99d476a540fb41d7af35a') in 0.007288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.832805 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m11.anim
-  artifactKey: Guid(71abe57cd0f0ed64798ec5f033db379f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m11.anim using Guid(71abe57cd0f0ed64798ec5f033db379f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9aee676dde3b6608fd4ddf77139d57e3') in 0.006721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.896528 seconds.
-  path: Assets/Animation/modelanimation/nut2to3m12.anim
-  artifactKey: Guid(b3cc10c5a2570ea4b8246d7ed817c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to3m12.anim using Guid(b3cc10c5a2570ea4b8246d7ed817c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'da7cbf955fce05856b75015d2fdc034d') in 0.006938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.831937 seconds.
-  path: Assets/Animation/modelanimation/nut2to31.anim
-  artifactKey: Guid(270f0ba97495e434989b0abdffbd0fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to31.anim using Guid(270f0ba97495e434989b0abdffbd0fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd9dceb5181ff581ad0346107b4fb1cbd') in 0.007634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.991941 seconds.
-  path: Assets/Animation/modelanimation/nut2to32.anim
-  artifactKey: Guid(81cc7be240092ea428ff13f28fb90f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to32.anim using Guid(81cc7be240092ea428ff13f28fb90f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '683c2d3adc13bb087d26845c75452f31') in 0.007851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.824193 seconds.
-  path: Assets/Animation/modelanimation/nut2to33.anim
-  artifactKey: Guid(ae5b92a3c8157ce469fea06d699e0ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to33.anim using Guid(ae5b92a3c8157ce469fea06d699e0ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c0d7d2c79bb842739c9f9d545cdff938') in 0.008704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.054254 seconds.
-  path: Assets/Animation/modelanimation/nut2to34.anim
-  artifactKey: Guid(780e7932555433a4eb1d55c2cbe75a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to34.anim using Guid(780e7932555433a4eb1d55c2cbe75a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '81a9313e07aab894cbde991b323d0e7f') in 0.007867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.663397 seconds.
-  path: Assets/Animation/modelanimation/nut2to35.anim
-  artifactKey: Guid(b5a0ccf01cda91c459e976749a58007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to35.anim using Guid(b5a0ccf01cda91c459e976749a58007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '89fdf4be8a56a2083bafa7b7aaa8e9a5') in 0.008477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.550739 seconds.
-  path: Assets/Animation/modelanimation/nut2to36.anim
-  artifactKey: Guid(cd433142978363c42bededdc45ec9d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to36.anim using Guid(cd433142978363c42bededdc45ec9d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b0403c8bd138995ba27002c7d5d9fd54') in 0.007747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.688003 seconds.
-  path: Assets/Animation/modelanimation/nut2to37.anim
-  artifactKey: Guid(36ef0db17f22319418e4ef8de9eb2f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to37.anim using Guid(36ef0db17f22319418e4ef8de9eb2f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c2b8badae75133706c5cc705930b2f3d') in 0.007447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.647310 seconds.
-  path: Assets/Animation/modelanimation/nut2to38.anim
-  artifactKey: Guid(c62e8f7670c474d4d994a83efa2d450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to38.anim using Guid(c62e8f7670c474d4d994a83efa2d450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0591de570b5bc277863dab52f347f174') in 0.008843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.518343 seconds.
-  path: Assets/Animation/modelanimation/nut2to39.anim
-  artifactKey: Guid(3e76a1f8f719f8e4a877dcdd43c2cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to39.anim using Guid(3e76a1f8f719f8e4a877dcdd43c2cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd10284dc19aadf3b4f843fea509c4e19') in 0.007707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.503636 seconds.
-  path: Assets/Animation/modelanimation/nut2to310.anim
-  artifactKey: Guid(65da8ee185333144fa54230ec35e5210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to310.anim using Guid(65da8ee185333144fa54230ec35e5210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f1ca4e65ee7c7502b1b0776ab55599da') in 0.006927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.616481 seconds.
-  path: Assets/Animation/modelanimation/nut2to311.anim
-  artifactKey: Guid(f94ff60e009c53744ad493a0b26ff60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to311.anim using Guid(f94ff60e009c53744ad493a0b26ff60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '99c368c26e1c42cfaf4703e250e03a38') in 0.007351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.871634 seconds.
-  path: Assets/Animation/modelanimation/nut2to312.anim
-  artifactKey: Guid(423a22c110d41e54eb2f200e98139551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to312.anim using Guid(423a22c110d41e54eb2f200e98139551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9d862fe1b0fce80cabcd2b7b0b485213') in 0.007028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.152226 seconds.
-  path: Assets/Animation/modelanimation/nut2to313.anim
-  artifactKey: Guid(fc08739d66f62fe40b4d172721a4ef42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to313.anim using Guid(fc08739d66f62fe40b4d172721a4ef42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '59e87f36eee574fb0034d9a39a18e98a') in 0.007127 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.172796 seconds.
-  path: Assets/Animation/modelanimation/nut2to314.anim
-  artifactKey: Guid(40fd105fd5c5a8947977b61d3cadc98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to314.anim using Guid(40fd105fd5c5a8947977b61d3cadc98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0b9101ad6f28b37e006c235d55a5e0a7') in 0.007946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.780097 seconds.
-  path: Assets/Animation/modelanimation/nut2to315.anim
-  artifactKey: Guid(7a5b087214f339c449482d6dc317778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut2to315.anim using Guid(7a5b087214f339c449482d6dc317778e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cde1c299a9ccbb451db5eebcb58af214') in 0.007507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.847589 seconds.
-  path: Assets/Animation/modelanimation/nut3to41.anim
-  artifactKey: Guid(c898dd332f066d94ea17e1e3ea48bbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to41.anim using Guid(c898dd332f066d94ea17e1e3ea48bbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f99c7aaeccb60b37917a7a39adb3bc79') in 0.006992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.928292 seconds.
-  path: Assets/Animation/modelanimation/nut3to42.anim
-  artifactKey: Guid(3ce8ca1d9c3c1704fac4a216c293ee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to42.anim using Guid(3ce8ca1d9c3c1704fac4a216c293ee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e8439fa75fe7a6617e2017040bf04eee') in 0.007229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.807209 seconds.
-  path: Assets/Animation/modelanimation/nut3to43.anim
-  artifactKey: Guid(db9fe9fe4e041424f88082da344b6f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to43.anim using Guid(db9fe9fe4e041424f88082da344b6f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'edadefe204c6d90afdc4b8c2d684bae4') in 0.007236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.752661 seconds.
-  path: Assets/Animation/modelanimation/nut3to44.anim
-  artifactKey: Guid(2ffd269cc1a31f5448775c1194734293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to44.anim using Guid(2ffd269cc1a31f5448775c1194734293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fb4c657d2f28f1e0b75ab8091f7d363b') in 0.007447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.631943 seconds.
-  path: Assets/Animation/modelanimation/nut3to45.anim
-  artifactKey: Guid(5cd4d309a535db64f9d2cf10f4c8550a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to45.anim using Guid(5cd4d309a535db64f9d2cf10f4c8550a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a4056fa988a33ae4f991c100389a4e78') in 0.007235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.759827 seconds.
-  path: Assets/Animation/modelanimation/nut3to46.anim
-  artifactKey: Guid(f01d41fb3f4873d419bf5b2949e2dc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to46.anim using Guid(f01d41fb3f4873d419bf5b2949e2dc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '409cad0864652f530e00d377365e3f4a') in 0.007110 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.752554 seconds.
-  path: Assets/Animation/modelanimation/nut3to47.anim
-  artifactKey: Guid(24a92c3e44b05a24d81b117f96ef886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to47.anim using Guid(24a92c3e44b05a24d81b117f96ef886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd3f1b062dd88d3587d3bb1ed602a5d66') in 0.007074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.767579 seconds.
-  path: Assets/Animation/modelanimation/nut3to48.anim
-  artifactKey: Guid(f81fd9ac2a92ac34ea3828ca9ba085b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to48.anim using Guid(f81fd9ac2a92ac34ea3828ca9ba085b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eee798408a45c3a59a42d6243b59f4e1') in 0.007067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.889399 seconds.
-  path: Assets/Animation/modelanimation/nut3to49.anim
-  artifactKey: Guid(5f58682c0722ee24bad4631d9f80076b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to49.anim using Guid(5f58682c0722ee24bad4631d9f80076b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '133cd0a731eeb085e57241b4bed68737') in 0.007411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.183875 seconds.
-  path: Assets/Animation/modelanimation/nut3to410.anim
-  artifactKey: Guid(d770dd7602e92cb489500db978a8b45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to410.anim using Guid(d770dd7602e92cb489500db978a8b45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a0c26e66b78e814d26e0efa09d3d220b') in 0.007234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.423896 seconds.
-  path: Assets/Animation/modelanimation/nut3to411.anim
-  artifactKey: Guid(70b4a8336a4d8be44bff13ff88a6e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to411.anim using Guid(70b4a8336a4d8be44bff13ff88a6e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cac6ea000b38bab8cb06954ef636fd18') in 0.007741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.599183 seconds.
-  path: Assets/Animation/modelanimation/nut3to412.anim
-  artifactKey: Guid(02bb09a78cd419e4f9f46bc8ccb80e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to412.anim using Guid(02bb09a78cd419e4f9f46bc8ccb80e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dd1cb51d2b6364adee4fe4b9324c15c2') in 0.007199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.304761 seconds.
-  path: Assets/Animation/modelanimation/nut3to413.anim
-  artifactKey: Guid(96b6b9f2519a06347b78bb54f593abf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to413.anim using Guid(96b6b9f2519a06347b78bb54f593abf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6f1b73a368191abd3260eb7dd8950e45') in 0.007384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.727236 seconds.
-  path: Assets/Animation/modelanimation/nut3to414.anim
-  artifactKey: Guid(d1573f7e4f728834facbe523e39c2549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to414.anim using Guid(d1573f7e4f728834facbe523e39c2549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '40a5424fcaed0d4af0a54d0777f1b00b') in 0.007228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.856522 seconds.
-  path: Assets/Animation/modelanimation/nut3to415.anim
-  artifactKey: Guid(ecfcfba50471c2e4ea4dce42bef20ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to415.anim using Guid(ecfcfba50471c2e4ea4dce42bef20ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1af8603cbb918e7f09bf92ce4bf643b2') in 0.007665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 17.302260 seconds.
-  path: Assets/Animation/modelanimation/nut3to416.anim
-  artifactKey: Guid(96f49b53e2fc62648b8a48affff319d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut3to416.anim using Guid(96f49b53e2fc62648b8a48affff319d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '481128294206bc83c9095163da87c7e2') in 0.007356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.984425 seconds.
-  path: Assets/Animation/modelanimation/nut11.anim
-  artifactKey: Guid(2f822cc8d79e3584992ada6248e13891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut11.anim using Guid(2f822cc8d79e3584992ada6248e13891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '41abb62e471598cd33c1b6af46d42543') in 0.007414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.887333 seconds.
-  path: Assets/Animation/modelanimation/nut12.anim
-  artifactKey: Guid(d0e2d17df123df3409572183904324dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut12.anim using Guid(d0e2d17df123df3409572183904324dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9da8027caa82be14e41b43fc137966a5') in 0.007163 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.624008 seconds.
-  path: Assets/Animation/modelanimation/nut13.anim
-  artifactKey: Guid(05f1ff1a674a27940bbf0d70eb612e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut13.anim using Guid(05f1ff1a674a27940bbf0d70eb612e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '01039a0d1ca33e932e6f76cde33fed92') in 0.007458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.872769 seconds.
-  path: Assets/Animation/modelanimation/nut14.anim
-  artifactKey: Guid(2f97a5fa334252b428c90f2ceaef2705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut14.anim using Guid(2f97a5fa334252b428c90f2ceaef2705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2354fe9079f9d6118f8874cdddc49b8a') in 0.006159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.088981 seconds.
-  path: Assets/Animation/modelanimation/nut21.anim
-  artifactKey: Guid(da83a6863e904cc48806b1beaf036151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut21.anim using Guid(da83a6863e904cc48806b1beaf036151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '87015752b83ed4114067eb3a05bbab14') in 0.007426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.991711 seconds.
-  path: Assets/Animation/modelanimation/nut22.anim
-  artifactKey: Guid(44b7b1efd9993be46aaac8cff67cd385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut22.anim using Guid(44b7b1efd9993be46aaac8cff67cd385) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '195cd9304fb1bd126425fa352a07831f') in 0.001301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 6.005001 seconds.
-  path: Assets/Animation/modelanimation/nut23.anim
-  artifactKey: Guid(f850aa7e6acdba94e9d1bd994fc10141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut23.anim using Guid(f850aa7e6acdba94e9d1bd994fc10141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e9b7a89dbc63649c1d87f4f4a8c30aa4') in 0.002188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.749383 seconds.
-  path: Assets/Animation/modelanimation/nut24.anim
-  artifactKey: Guid(f9961c79480ab4547b69b3921feebc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut24.anim using Guid(f9961c79480ab4547b69b3921feebc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4d9e8060ad42afb5d8fdfa54b0bad06f') in 0.001342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.997428 seconds.
-  path: Assets/Animation/modelanimation/nut25.anim
-  artifactKey: Guid(7d299545c0720db43a981e38a2fe2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut25.anim using Guid(7d299545c0720db43a981e38a2fe2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1738c90e5db8c4c72a7ebca8d4ec06bf') in 0.001360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.350725 seconds.
-  path: Assets/Animation/modelanimation/nut26.anim
-  artifactKey: Guid(4a69f6943272f924187773287ec0883a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut26.anim using Guid(4a69f6943272f924187773287ec0883a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2f225fcefa4583c610a6a9b6d34f588e') in 0.001447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.252468 seconds.
-  path: Assets/Animation/modelanimation/nut27.anim
-  artifactKey: Guid(a6a98cb1870296441bde4f624824eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut27.anim using Guid(a6a98cb1870296441bde4f624824eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c5a2343c4d26f713445ddec4e46668c1') in 0.001388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.271441 seconds.
-  path: Assets/Animation/modelanimation/nut28.anim
-  artifactKey: Guid(45450d568776d7e46a5388c468cee1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut28.anim using Guid(45450d568776d7e46a5388c468cee1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cf7d4357ad4402079d81d905ee9961af') in 0.001328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.228911 seconds.
-  path: Assets/Animation/modelanimation/nut29.anim
-  artifactKey: Guid(83417c59312386342a3b71212eba04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut29.anim using Guid(83417c59312386342a3b71212eba04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '293bb696eccd15b153026bc33ef7ceaf') in 0.001376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.598302 seconds.
-  path: Assets/Animation/modelanimation/nut31.anim
-  artifactKey: Guid(8922e7bffeff09c46aec38df613a1102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut31.anim using Guid(8922e7bffeff09c46aec38df613a1102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ddc510c2bd0461d0dc1c7de5b407550e') in 0.007679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.694696 seconds.
-  path: Assets/Animation/modelanimation/nut32.anim
-  artifactKey: Guid(adcb9e47120fa2845a3971152c9fbafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut32.anim using Guid(adcb9e47120fa2845a3971152c9fbafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b1897c45981e0676bfef2fac4dd48caf') in 0.007313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.535911 seconds.
-  path: Assets/Animation/modelanimation/nut33.anim
-  artifactKey: Guid(d52bf89333461a54b9529aa326d5d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut33.anim using Guid(d52bf89333461a54b9529aa326d5d08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bcaeb4c3e04b20d434e2df645c865df9') in 0.007541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.488540 seconds.
-  path: Assets/Animation/modelanimation/nut34.anim
-  artifactKey: Guid(0e07d0aa5b9fb314d88d42e845c7359c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut34.anim using Guid(0e07d0aa5b9fb314d88d42e845c7359c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0fe1939a615b8a377a66b64f391e889b') in 0.007055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.535740 seconds.
-  path: Assets/Animation/modelanimation/nut41.anim
-  artifactKey: Guid(f350b0ab5905dd14fa0c757da62d08fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut41.anim using Guid(f350b0ab5905dd14fa0c757da62d08fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cc8c6e22a6c740b01b044ff50ec1013e') in 0.007809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 6.520248 seconds.
-  path: Assets/Animation/modelanimation/nut42.anim
-  artifactKey: Guid(db79eabf50708d6499c9bd64bf7bbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut42.anim using Guid(db79eabf50708d6499c9bd64bf7bbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0040d5ecd5ae67f4b17704417bdbdc5c') in 0.007736 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.748814 seconds.
-  path: Assets/Animation/modelanimation/nut224.anim
-  artifactKey: Guid(abff88cf7283a804d9e999617cb49d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut224.anim using Guid(abff88cf7283a804d9e999617cb49d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7007be0e07d4e3035487142f807465c4') in 0.001374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.622781 seconds.
-  path: Assets/Animation/modelanimation/nut223.anim
-  artifactKey: Guid(3f1fd1ba727726c4b98b4d8de365bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut223.anim using Guid(3f1fd1ba727726c4b98b4d8de365bdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2e6fe44049679b77df7aedc71476ec79') in 0.001428 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.765886 seconds.
-  path: Assets/Animation/modelanimation/nut222.anim
-  artifactKey: Guid(e1335ad2b7050614ebce45df9b64b3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut222.anim using Guid(e1335ad2b7050614ebce45df9b64b3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8ba646fb2422e3b9adb9236984c492c9') in 0.001321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.475908 seconds.
-  path: Assets/Animation/modelanimation/nut221.anim
-  artifactKey: Guid(ea175cd706467f64e928ac5e150f8145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut221.anim using Guid(ea175cd706467f64e928ac5e150f8145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '103c3145166905346ed449396b567f71') in 0.001483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.566905 seconds.
-  path: Assets/Animation/modelanimation/nut220.anim
-  artifactKey: Guid(e4a390661c40efa48a91ac59e5f86e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut220.anim using Guid(e4a390661c40efa48a91ac59e5f86e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9ce1602268229c156d287db2a315c5ea') in 0.001697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.381441 seconds.
-  path: Assets/Animation/modelanimation/nut219.anim
-  artifactKey: Guid(0fe6bc08cf4536e4f955452438027290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut219.anim using Guid(0fe6bc08cf4536e4f955452438027290) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3975ed492d81dcb70a3b192bca7c824b') in 0.001683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.398321 seconds.
-  path: Assets/Animation/modelanimation/nut218.anim
-  artifactKey: Guid(fb0b972be74da4d42bcf0d53ea5af545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut218.anim using Guid(fb0b972be74da4d42bcf0d53ea5af545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0fa90eb11dee086b8b47040fca00f05c') in 0.001416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.720350 seconds.
-  path: Assets/Animation/modelanimation/nut217.anim
-  artifactKey: Guid(418d23ad1d5c0d04abe40723a82297aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut217.anim using Guid(418d23ad1d5c0d04abe40723a82297aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b6fac6e455a173e941ea015bdb1258fb') in 0.001435 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.500665 seconds.
-  path: Assets/Animation/modelanimation/nut216.anim
-  artifactKey: Guid(4182c64f8ee94a744881c3a9abb8908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut216.anim using Guid(4182c64f8ee94a744881c3a9abb8908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0691772d64f6a97bfbd3e68aedf111b2') in 0.001312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.197439 seconds.
-  path: Assets/Animation/modelanimation/nut215.anim
-  artifactKey: Guid(e4b74e424a7e066459621e8eff286739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut215.anim using Guid(e4b74e424a7e066459621e8eff286739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'df06d92eab3b3545306acfe8fecfe2f9') in 0.001418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.950931 seconds.
-  path: Assets/Animation/modelanimation/nut214.anim
-  artifactKey: Guid(0a691ee3c8ba2bc45893c354dd074720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut214.anim using Guid(0a691ee3c8ba2bc45893c354dd074720) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0855152ecaa5308b8a155a575c516eb8') in 0.001436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.333370 seconds.
-  path: Assets/Animation/modelanimation/nut213.anim
-  artifactKey: Guid(d1ae17110fb09c44c9baa923f2a16be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut213.anim using Guid(d1ae17110fb09c44c9baa923f2a16be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '690f872d1abb669f5f91092e01596a17') in 0.001391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.677844 seconds.
-  path: Assets/Animation/modelanimation/nut212.anim
-  artifactKey: Guid(32cbfb8367be66a43bcedfdaf62df15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut212.anim using Guid(32cbfb8367be66a43bcedfdaf62df15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f9a4fea23a2a9a1377e9f521ae581e15') in 0.001598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.557398 seconds.
-  path: Assets/Animation/modelanimation/nut211.anim
-  artifactKey: Guid(39e3b1880d70349458ed45350d2aff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut211.anim using Guid(39e3b1880d70349458ed45350d2aff3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '992caef385fcd63bca94e49a26af04e6') in 0.001616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.989289 seconds.
-  path: Assets/Animation/modelanimation/nut210.anim
-  artifactKey: Guid(8286f26e2f4403a42bf8379298467595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut210.anim using Guid(8286f26e2f4403a42bf8379298467595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c08507c93f9d8187edb2fe0c46b1ea91') in 0.001592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.062442 seconds.
-  path: Assets/Animation/modelanimation/nut64.anim
-  artifactKey: Guid(374d47c77c7a15e4a9d465ee1e9de6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut64.anim using Guid(374d47c77c7a15e4a9d465ee1e9de6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '766f83eccbe5435935eea2ea6a1f0b9f') in 0.007620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.351080 seconds.
-  path: Assets/Animation/modelanimation/nut63.anim
-  artifactKey: Guid(9b925611f1a982f488bbcd8ae5d91ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut63.anim using Guid(9b925611f1a982f488bbcd8ae5d91ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '22cd85a15d326c348cd6d76f92b1c433') in 0.007065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.727829 seconds.
-  path: Assets/Animation/modelanimation/nut62.anim
-  artifactKey: Guid(e81c3057cfe357749af1f1f188075a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut62.anim using Guid(e81c3057cfe357749af1f1f188075a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c4714d4405417977e808d02c7fa33487') in 0.007655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.463693 seconds.
-  path: Assets/Animation/modelanimation/nut61.anim
-  artifactKey: Guid(37084caa578a36d499f2cc66b44211ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut61.anim using Guid(37084caa578a36d499f2cc66b44211ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '675fcea2ee62793f12d256ecc84626a0') in 0.007401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.624233 seconds.
-  path: Assets/Animation/modelanimation/nut54.anim
-  artifactKey: Guid(b54bb24f56e1fc84b8ad99323c4412b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut54.anim using Guid(b54bb24f56e1fc84b8ad99323c4412b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7be2f32651ed4b1f349d4ec1249e7b47') in 0.007418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.839603 seconds.
-  path: Assets/Animation/modelanimation/nut53.anim
-  artifactKey: Guid(65790cf244787df4e8079e406edd2f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut53.anim using Guid(65790cf244787df4e8079e406edd2f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e42a842ef89d3e272f862d858998bb0b') in 0.007229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.641163 seconds.
-  path: Assets/Animation/modelanimation/nut52.anim
-  artifactKey: Guid(303e10b154b145b4cae5c817a5069632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut52.anim using Guid(303e10b154b145b4cae5c817a5069632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3c27106435f59fd6db6060e0602c537c') in 0.006914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.776724 seconds.
-  path: Assets/Animation/modelanimation/nut51.anim
-  artifactKey: Guid(af6f4cf0865e43a409e9df697c584724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut51.anim using Guid(af6f4cf0865e43a409e9df697c584724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7e2b8bfd2531d950aaae7b11f3bb6e82') in 0.006801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.920562 seconds.
-  path: Assets/Animation/modelanimation/nut44.anim
-  artifactKey: Guid(bfd4ad2efe953cd458285381ade2d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut44.anim using Guid(bfd4ad2efe953cd458285381ade2d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bedaeb9aef8054d7f12deac6516e3886') in 0.007209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.623122 seconds.
-  path: Assets/Animation/modelanimation/nut43.anim
-  artifactKey: Guid(8ddbd5466424e4449bddd445ee23a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/modelanimation/nut43.anim using Guid(8ddbd5466424e4449bddd445ee23a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7fdf4d91186e42b724cc7dbdefa28454') in 0.007520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.348 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1134ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3605.
+Memory consumption went from 122.7 MB to 122.7 MB.
+Total: 2.451200 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.074400 ms MarkObjects: 2.113100 ms  DeleteObjects: 0.042100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
